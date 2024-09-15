@@ -1,8 +1,6 @@
 : '
 .SYNOPSIS
     Request-OSX_Permissions.sh
-.NOTES
-    Written by Nathan LeDuc via contractor "Elencio Mukaj"
 .VERSION
     1.0.3 2024-09-03
         * Added function to wait for user interaction and prevent popups while the Mac is on the lock screen. 
