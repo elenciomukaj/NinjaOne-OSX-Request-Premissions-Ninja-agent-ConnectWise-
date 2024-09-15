@@ -3,7 +3,6 @@
     Request-OSX_Permissions.sh
 .NOTES
     Written by Nathan LeDuc via contractor "Elencio Mukaj"
-    Nathan@enstep.com
 .VERSION
     1.0.3 2024-09-03
         * Added function to wait for user interaction and prevent popups while the Mac is on the lock screen. 
@@ -16,10 +15,7 @@
 
 .DESCRIPTION
     This helper script checks for Ninja and Connectwise Control permissions on OSX. It requires that the user logged in have administrative 
-    rights in order to manually grant access. Due to OSX security, this scripts purpose is to "annoy" the end user into granting Ninja and 
-    Connectwise Control. 
-.URL
-    https://dev.azure.com/enstep/_git/Engineering?path=/Workstation%20Maintenance/OSX/Request-OSX_Permissions.sh
+    rights in order to manually grant access. Due to OSX security, this scripts purpose is to help user grant access easily. 
 '
 
 
